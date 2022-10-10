@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!----hero Section start---->
+    <header>
+    <div class="hero">
+      <nav>
+        <h2 class="logo">PANCASILA<span>univ</span></h2>
+        <ul id="menuList">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <a href="#" class="btn" onclick="togglemenu()">---</a>
+      </nav>
+
+      <div class="content">
+        <h4>Hello, my name is</h4>
+        <h1>HUSEIN <span>ZIDAN</span></h1>
+        <h3>
+          I will present a THEME entitled<span> ENTREPRENEUR UNIVERSITY</span>
+        </h3>
+
+        <div class="newslatter">
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Enter Your Email"
+            />
+            <input type="submit" name="submit" value="Lets Start" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!----About section start---->
+    <section id="about" class="about">
+      <div class="main">
+        <img src="img/1.jpg " />
+        <div style="text-align: center" class="about-text">
+          <h3>
+            <span>Universitas Pancasila</span> Galakkan Pengembangan
+            Entrepreneur
+          </h3>
+          <p>
+            Para mahasiswanya Universitas Pancasila telah banyak yang melakukan
+            usaha atau berwirausaha dengan sukses. Hal tersebut dinilai sangat
+            membanggakan karena Universitas Pancasila sejatinya tengah mendorong
+            visi Entrepreneurship di 2034. Hal itu tercermin dari dibentuknya
+            Pusat Pengembangan Kewirausahaan dan Layanan Karir Mahasiswa
+            (PPKLKM) Universitas Pancasila.
+          </p>
+          <p>
+            Diungkapkan Kepala Career and Entrepreneurship Development Centre
+            (CEDC) Universitas Pancasila, Ir. Petiana Indriati, CEDC nantinya
+            akan berubah menjadi PPKLKM yang mana salah satu pusat programnya di
+            tuangkan dalam kegiatan Entrepreneur Day.
+          </p>
+          <p>
+            "Karena Entrepreneur Day ini sejaan dengan visi Universitas
+            Pancasila sebagai kampus entrepreneur berbasis IPTEK, makanya kami
+            juga bentuk Pengembangan Kewirausahaan dan Layanan Karir Mahasiswa.
+            Awalnya di tahun pertama masih berbentuk proyek. Dan di tahun kedua
+            kita coba layanan sistematis yang continuity yang jelas sasarannya,
+            dan juga jelas sebagai lembaga struktural," ungkap Peti saat ditemui
+            di Universitas Pancasila, Jakarta, Selasa (29/10).
+          </p>
+          <a
+            href="https://www.gatra.com/news-453806-milenial-universitas-pancasila-galakkan-pengembangan-entrepreneur.html"
+          >
+            <button type="button">Info Selanjutnya ....</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-----service section start----------->
+    <div id="service" class="service">
+      <div class="title">
+        <h2>Info Universitas</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-bars"></i>
+          <h5>PMB Online</h5>
+          <div class="pra">
+            <p>
+              PMB Online adalah singkatan dari Penerimaan Mahasiswa Baru, yang
+              dimana didalamnya ada pemilihan jalur test.
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="http://pmbonline.univpancasila.ac.id/"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="far fa-user"></i>
+          <h5>Galeri Universitas</h5>
+          <div class="pra">
+            <p>
+              Di didalam sini banyak info-info menarik didalam kampus dan
+              terUpdate didalam universita Pancasila
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="https://univpancasila.ac.id/"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="far fa-bell"></i>
+          <h5>Hubungi Kami</h5>
+          <div class="pra">
+            <p>
+              untuk mendapatkan info selengkapnya silahkan hubungi kami dengan
+              cara klik botton dibawah ini dan pilih.
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------Contact Me------>
+    <div id="contact" class="contact-me">
+      <p>Karya Saya selama ini.</p>
+      <a class="button-two" href="#">Hire Me</a>
+    </div>
+
+    <!------footer start--------->
+    <footer>
+      <p>Husein Zidan</p>
+      <p>HTML , CSS , and JAVASCRIPT</p>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+      </div>
+      <p class="end">CopyRight By Husein Zidan</p>
+    </footer>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+          });
+        });
+      });
+      var menuList = document.getElementById('menulist');
+      menuList.style.maxHeight = '0px';
+      function tooglemenu() {
+        if (menuList.style.maxHeight == '0px') {
+          menuList.style.maxHeight = '130px';
+        } else {
+          menuList.style.maxHeight = '0px';
+        }
+      }
+    </script>
+  </body>
+</html>
