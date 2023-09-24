@@ -11,13 +11,20 @@
   background-size: cover;
   background-position: center;
 }
+
 nav {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 45px;
+  padding-top: 20px;
+  padding-bottom: 15px;
   padding-left: 8%;
   padding-right: 8%;
+  width: 100%;
+  backdrop-filter: blur(6px);
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .logo {
@@ -51,6 +58,7 @@ nav ul li a:hover {
   backdrop-filter: blur(6px);
   border: solid 2px rgba(255, 255, 255, 0.027);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  z-index: 0;
 }
 .btn {
   background-color: #f9004d;
@@ -92,6 +100,7 @@ h4 {
   max-width: 100%;
   position: relative;
 }
+
 .newslatter form input:first-child {
   display: inline-block;
   width: 100%;
@@ -119,7 +128,11 @@ h4 {
   padding: 50px 50px;
   background-color: #191919;
 }
+
 .about img {
+  padding: 20px;
+  display: block; /* Mengubah gambar menjadi elemen block */
+  margin: 0 auto; /* Mengatur margin otomatis (auto) untuk mengatur gambar menjadi tengah secara horizontal */
   height: auto;
   width: 430px;
 }
@@ -128,10 +141,10 @@ h4 {
   width: 1130px;
   max-width: 95%;
   margin: 0 auto;
-
   align-items: center;
   justify-content: space-around;
 }
+
 .about-text h2 {
   color: white;
   font-size: 75px;
